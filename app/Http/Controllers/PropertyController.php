@@ -11,7 +11,7 @@ class PropertyController extends Controller
     public function __invoke (Request $request, SearchPropertiesService $service)
     {
         return PropertyResource::collection(
-            $service->handle($request)
+            $service->handle()
         );
     }
 }
