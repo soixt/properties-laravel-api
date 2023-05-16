@@ -1,6 +1,6 @@
 ## Properties app
 
-Application uses sqlite database and here is the deployment process:
+Application deployment process:
 
 - clone the repo
 - cd into cloned repo
